@@ -1,0 +1,11 @@
+<div class="container">
+ <h1>Simpsons</h1>7
+
+  <div class="lot_simpsons" *ngFor="let item of simpsons;">
+    <img src={{item.image}}> 
+
+    <button (click)="affiche(item)">quote</button>
+    
+  </div>
+  
+</div>
